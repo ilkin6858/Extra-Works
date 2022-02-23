@@ -1,0 +1,62 @@
+$font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+$font-size: 30px;
+$colorqarisiq: rgba(63, 68, 68, 0.2);
+$text-color: red;
+
+#menu {
+  background-color: $colorqarisiq;
+  font-family: $font;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    padding: 10px;
+    font-size: $font-size;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      color: aqua;
+    }
+  }
+}
+
+article {
+  .article-header {
+    color: green;
+    font-size: $font-size;
+    text-align: center;
+    border-bottom: 5px dashed blue;
+  }
+
+  .article-content {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .article-footer {
+    color: aqua;
+    font-size: 1.5em;
+
+    text-align: center;
+    a{
+        color: rgba(42, 165, 69, 0.918);
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        &:hover{
+            color: red;
+            text-decoration: underline;
+        }
+    }
+  }
+}

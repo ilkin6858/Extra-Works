@@ -1,0 +1,57 @@
+#menu {
+  background-color: rgba(63, 68, 68, 0.2);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#menu li {
+  padding: 10px;
+  font-size: 30px;
+  display: block;
+}
+
+#menu a {
+  text-decoration: none;
+  color: red;
+}
+
+#menu a:hover {
+  color: aqua;
+}
+
+article .article-header {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 5px dashed blue;
+}
+
+article .article-content {
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+}
+
+article .article-footer {
+  color: aqua;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+article .article-footer a {
+  color: rgba(42, 165, 69, 0.918);
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+}
+
+article .article-footer a:hover {
+  color: red;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */
